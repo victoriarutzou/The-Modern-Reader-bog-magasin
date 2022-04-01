@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Forside til The Modern Reader - et online bog-magasin til læseglade unge.">
+    <title>The Modern Reader</title>
+    <!--LINK TIL STYLESHEET-->
+    <link rel="stylesheet" href="styles.css"/>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Source+Serif+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!--MENU--> 
+    <nav>
+        <a href="index.html"><p>Hjem</p></a>
+        <a href="#"><p>Om os</p></a>
+
+        <div class="dropdown">
+            <button class="dropbtn"><img src="photos/bookicon.png" alt="bogikon">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <p>Bøger og E-bøger</p>
+              
+            <div class="dropdown-content">
+                <a href="#">Bøger</a>
+                <a href="#">E-bøger</a>
+                <a href="#">Genre</a>
+                <a href="#">Populært</a>
+                <a href="#">Alle</a>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown2">
+                <button class="dropbtn2"><img src="photos/headphoneicon.png" alt="ikon af et par høretelefoner" >
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <p>Lydbøger og Podcasts</p>
+                  
+                <div class="dropdown-content2">
+                    <a href="#">Lydbøger</a>
+                    <a href="#">Podcasts</a>
+                    <a href="#">Genre</a>
+                    <a href="#">Alle</a>
+                </div>
+        </div>
+
+    </nav>
+<!--HEADER-->
+<header>
+    <h1>The Modern Reader</h1>
+        <div class="headercontainer">
+            <img src="photos/hero_people.png" alt="tre unge mennesker læser bøger"/>
+
+            <div>
+                <h2>Et online bog-magasin til læseglade unge! 
+                Ugentlige artikler med de bedste bøger, podcasts, e-bøger og lydbøger til dine moderne læsevaner.
+                </h2>
+                <div id="rippedpaper">
+                    <img src="photos/rippedpaper.png" alt="et stykke blåt paper"/>
+                    <a id="nyhedsbrev" href="#">Tilmeld dig nyhedsbrevet</a>
+                </div>
+                
+            </div>
+           
+        </div>
+
+</header>
+
+<!--ARTICLES-->
+    <section class="articlesection">
+        <h3>Nye Artikler</h3>
+        <div class="container">
+
+            <div class="articlecontainer">
+                <div>
+                    <a href="artikel.html"><img src="photos/firstarticle.png" alt="En umotiveret pige sidder og laver lektier"></a>
+                </div>
+                <div class="content">
+                    <h6>5 tips til at læse mere i en travl hverdag</h6>
+                </div>
+            </div>
+
+            <div class="articlecontainer">
+                <div id="crescentcity"><img src="photos/secondarticle.png" alt="Fantasy bogen Crescent city af Sarah J. Maas ved siden af en hvid bog med et spørgsmålstegn."></div>
+                <div class="content"><h6>Find nyt læsestof, der minder om bøger, <br>du allerede har læst og elsket</h6></div>
+            </div>
+
+            <div class="articlecontainer">
+                <div><img src="photos/thirdarticle.png" alt="En chokeret pige ved siden af en mystisk ugle og en bog"></div>
+                <div class="content"><h6>Fantasy kategorier du ikke kendte til</h6></div>
+            </div>
+    
+        </div> 
+    </section>
+
+<!--GENRES-->
+<section class="genre">
+    <h3>Genrer</h3>
+    <div class="row">
+        <div class= "square fantasy">
+            <a href="#"><img src="photos/fantasy.png" alt="Fantasy"></a>
+            <h4>Fantasy</h4>
+        </div>
+
+        <div class="square">
+            <a href="#"><img src="photos/krimi.png" alt="Krimi og Mysterier"></a>
+            <h4 id="krimi">Krimi </h4>
+            <h4 id="mysterier">Mysterier</h4>
+        </div>
+
+        <div class="square komedie">
+            <a href="#"><img src="photos/komedie.png" alt="Komedie"></a>
+            <h4>Komedie</h4>
+        </div>
+
+        <div class="square">
+            <a href="#"><img src="photos/adventure.png" alt="Adventure og Action"></a>
+            <h4 id="adventure">Adventure</h4>
+            <h4 id="action">Action</h4>
+        </div>
+
+     </div>
+
+    <div class="row secondrow">
+        <div class="square">
+            <a href="#"><img src="photos/comic.png" alt="Graphic novels og Comics"></a>
+                <h4 id="graphicnovel">Graphic <br> novel</h4>
+                <h4 id="comic">Comic</h4>
+        </div>
+
+        <div class="square scifi">
+            <a href="#"><img src="photos/scifi.png" alt="Scifi"></a>
+            <h4>Sci-Fi</h4>
+
+        </div>
+
+        <div class="square romance">
+            <a href="#"><img src="photos/romance.png" alt="Romance"></a>
+            <h4>Romance</h4>
+        </div>
+
+        <div class="square gyser">
+            <a href="#"><img src="photos/gyser.png" alt="Gyser"></a>
+            <h4>Gyser</h4>
+        </div>
+    </div>
+</section>
+
+
+<footer><!--FOOTER-->
+    
+    <div class="contactandinfo"> 
+        <div>
+            <h5>Tilmeld dig nyhedsbrevet</h5>
+            <h6>Nyhedsbrevet er gratis og vil blive sendt til din E-mail ugentligt.
+             <br>Så er du sikker på ikke at misse nogle artikler med nye bøger.</h6>
+        </div> 
+        <div>
+            <h5>Kontakt</h5>
+            <h6>E-mail: themodernreader@gmail.com</h6>
+            <h6>Tlf: +45 xxxxxxxx</h6>
+        </div>
+    
+        <div>
+            <h5>Info</h5>
+            <h6>Om os</h6>
+        </div>
+        
+    </div> 
+     
+         
+
+        <div class="siluetter">
+            <a href="https://www.facebook.com/"><img class="facebook" src="photos/facebookicon.png" alt="facebookikon"/></a>
+            <a href="https://www.instagram.com/"><img class="insta" src="photos/instagramicon.png" alt="instagramikon"/></a>
+            <img src="photos/siluetter.png" alt="en silluette af en mand der læser"/>
+        </div>
+        
+</footer>
+    
+</body>
+
+
+</html>
